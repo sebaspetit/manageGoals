@@ -6,6 +6,11 @@ function Principal({ children }) {
             <a href="/lista">lista</a>
             <a href="/crear">crear</a>
             <a href="/hola">saludo</a>
+            <a href="/crear">crear</a>
+            <a href="/hola">saludo</a><a href="/crear">crear</a>
+            <a href="/hola">saludo</a><a href="/crear">crear</a>
+            <a href="/hola">saludo</a><a href="/crear">crear</a>
+            <a href="/hola">saludo</a>
         </sidenav>
         <main>
             {children}
