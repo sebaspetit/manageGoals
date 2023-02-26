@@ -1,14 +1,17 @@
-import logo from './logo.svg';
+
 import './App.css';
+import Encabezamiento from './componentes/Encabezamiento';
+import Principal from './componentes/Principal';
+import Pie from './componentes/Pie';
 
 function App() {
   return (
-    <div>
-      <p> Trying to make a commit</p>
-      hola
+    <div className='App'>
+      <Encabezamiento></Encabezamiento>
+      <Principal></Principal>
+      <Pie></Pie>
     </div>
   );
 }
 
 export default App;
-BarProp
