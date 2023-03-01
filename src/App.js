@@ -1,6 +1,6 @@
 
 import './App.css';
-import Encabezamiento from './componentes/Encabezamiento';
+import Encabezamiento from './componentes/Encabezado';
 import Principal from './componentes/Principal';
 import Pie from './componentes/Pie';
 
