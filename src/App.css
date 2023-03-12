@@ -1,5 +1,5 @@
 .tarjeta {
-  @apply rounded-xl m-4 text-gray-700 text-xs mx-4 nm-flat-white;
+  @apply overflow-hidden rounded-xl m-4 text-gray-700 text-xs mx-4 nm-flat-white;
 }
 
 .boton {
@@ -11,9 +11,17 @@
 }
 
 .boton--rojo {
-  @apply text-red-500 nm-flat-gray-100 border bg-red-500;
+  @apply text-red-500 nm-flat-gray-100 border hover:bg-red-500 hover:text-white bg-red-500 border-red-500;
 }
 
 .boton--gris {
   @apply nm-flat-gray-100 hover:bg-gray-200;
+}
+
+.label {
+  @apply block uppercase text-xs font-bold mb-6;
+}
+
+.input {
+  @apply nm-inset-gray-100 w-full border rounded-xl py-2;
 }

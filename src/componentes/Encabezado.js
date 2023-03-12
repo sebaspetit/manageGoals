@@ -11,7 +11,7 @@ function Encabezado() {
       </div>
       <nav>
         <Vinculo className={estilos.logo}
-          href="/perfil" 
+          to="/perfil" 
           Icono={PerfilSVG}
           />
       </nav>
